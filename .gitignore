@@ -1,5 +1,7 @@
 # The canonical out-of-tree build subdirectory
 build
+bin/
+bin-int/
 
 # Visual Studio clutter
 _ReSharper*
@@ -9,6 +11,7 @@ _ReSharper*
 *.vcxproj*
 *.sln
 .vs
+*.vcxproj
 CMakeSettings.json
 Win32
 x64
